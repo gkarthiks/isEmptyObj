@@ -1,0 +1,29 @@
+{
+  "name": "isemptyobj",
+  "version": "0.0.1",
+  "description": "Checks the given field is empty recursively and returns true if empty.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gkarthiks/isEmptyObj.git"
+  },
+  "keywords": [
+    "is-object-empty",
+    "is-empty-object",
+    "object",
+    "isEmptyObj",
+    "nested"
+  ],
+  "author": "Karthikeyan Govindaraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkarthiks/isEmptyObj/issues"
+  },
+  "homepage": "https://github.com/gkarthiks/isEmptyObj#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
