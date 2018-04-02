@@ -1,4 +1,5 @@
 var test = require('tape')
+console.log('require(\'tape\')')
 var isEmpty = require('../index')
 
 
