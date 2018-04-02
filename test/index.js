@@ -18,16 +18,16 @@ var l = {source: {}, type: "", pool: {}, acquireConnectionTimeout: '', system: [
 
 test('isEmptyObj Testing', function(assert) {
     assert.equal(isEmptyObj(a), true);
-    /*assert.equal(isEmptyObj(b), false)
-    assert.equal(isEmptyObj(c), false)
-    assert.equal(isEmptyObj(d), true)
-    assert.equal(isEmptyObj(e), true)
-    assert.equal(isEmptyObj(f), false)
-    assert.equal(isEmptyObj(g), false)
-    assert.equal(isEmptyObj(h), true)
-    assert.equal(isEmptyObj(i), true)
-    assert.equal(isEmptyObj(j), false)
-    assert.equal(isEmptyObj(k), false)
-    assert.equal(isEmptyObj(l), true)*/
+    assert.equal(isEmptyObj(b), false);
+    assert.equal(isEmptyObj(c), false);
+    assert.equal(isEmptyObj(d), true);
+    assert.equal(isEmptyObj(e), true);
+    assert.equal(isEmptyObj(f), false);
+    assert.equal(isEmptyObj(g), false);
+    assert.equal(isEmptyObj(h), true);
+    assert.equal(isEmptyObj(i), true);
+    assert.equal(isEmptyObj(j), false);
+    assert.equal(isEmptyObj(k), false);
+    assert.equal(isEmptyObj(l), true);
     assert.end()
 })
