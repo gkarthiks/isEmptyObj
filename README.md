@@ -1,11 +1,14 @@
 # isEmptyObj
+
+![node](https://img.shields.io/badge/node-v8.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-green.svg) [![Build Status](https://travis-ci.org/gkarthiks/isEmptyObj.svg?branch=master)](https://travis-ci.org/gkarthiks/isEmptyObj)
+
 Checks the given object is empty recursively (if needed) and returns true for empty.
 
 ### Why this?
 This library checks the given `variable` or `object` for the *null* or *empty*. This will **recursively** goes into the object if needed and checks for the null / empty values. For example if an `Object` is having multiple levels and all those levels have just empty value, this will return `true`. Even at the least level, if it finds a value associated of with any type like Array or Object or String or even number this returns `false`.
 
 ## Installation
-> npm install isEmptyObj
+> npm i @gkarthiks/isemptyobj
 
 ## Usage
 ```JS
