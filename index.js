@@ -11,10 +11,6 @@ function nestedEmptyCheck(obj) {
         return true;
     }
 
-    else if(obj === undefined) {
-        return true;
-    }
-
     else if(typeof obj === "boolean"){
         return false;
     }
@@ -62,6 +58,9 @@ function nestedEmptyCheck(obj) {
  * @returns {boolean}
  */
 function isEmptyObj(object) {
+    if(object === undefined)
+        return true;
+
     var objToSend = JSON.parse(JSON.stringify(object));
     var result = nestedEmptyCheck(objToSend);
     if(JSON.stringify(result).indexOf('false') > -1)

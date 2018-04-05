@@ -17,6 +17,7 @@ var k ={ system: [ { a: [1,2], c: [5,6], }, 2]}
 var l = {source: {}, type: "", pool: {}, acquireConnectionTimeout: '', system: [ { a: [], c: [] }, ] }
 var m = {a:" "}
 var n = {a:true}
+var o = {a: undefined};
 
 
 test('isEmptyObj Testing', function(assert) {
@@ -34,6 +35,7 @@ test('isEmptyObj Testing', function(assert) {
     assert.equal(isEmptyObj(l), true);
     assert.equal(isEmptyObj(m), true);
     assert.equal(isEmptyObj(n), false);
+    assert.equal(isEmptyObj(o), true);
     assert.end()
 })
 
