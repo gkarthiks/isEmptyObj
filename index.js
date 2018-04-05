@@ -11,12 +11,22 @@ function nestedEmptyCheck(obj) {
         return true;
     }
 
+    else if(obj === undefined) {
+        return true;
+    }
+
+    else if(typeof obj === "boolean"){
+        return false;
+    }
+
     else if(typeof obj === "number"){
         return false;
     }
 
-    else if((typeof obj === "string") && obj != ''){
+    else if((typeof obj === "string") && obj.trim() != ''){
         return false;
+    } else if((typeof obj === "string") && obj.trim() === ''){
+        return true;
     }
 
     else if(Array.isArray(obj)){
